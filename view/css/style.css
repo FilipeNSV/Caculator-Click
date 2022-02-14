@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+h1{
+    color: white;
+    width: 250px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background-color: black;
+    border-style: solid;
+    border-color: rgb(151, 150, 150);
+    box-shadow: 0.4em 0.4em 0.4em black;
+    text-align: center;    
+    cursor: not-allowed;
+}
+
+.calculator {
+    width: 255px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 10px;
+    background-color: black;
+    border-style: solid;
+    border-color: rgb(151, 150, 150);
+    box-shadow: 0.4em 0.4em 0.4em black;
+}
+
+table td {
+    display: inline-block;
+}
+
+.btn {
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(151, 150, 150);
+    background-color: white;
+    font-family: Arial Black;
+    font-size: 15px;
+    transition: all 500ms ease-in-out;
+}
+
+.btn:hover {
+    color: white;
+    background-color: rgb(114, 107, 104);
+}
+
+.b2 {
+    transition: all 500ms ease-in-out;
+}
+
+.b2:hover {
+    color: white;
+    background-color: rgb(200, 123, 87);
+}
+
+.b3 {
+    transition: all 500ms ease-in-out;
+}
+
+.b3:hover {
+    color: white;
+    background-color: rgb(108, 87, 200);
+}
+
+.confirm {
+    transition: all 500ms ease-in-out;
+}
+
+.confirm:hover {
+    color: white;
+    background-color: rgb(110, 200, 87);
+}
+
+.display {
+    height: 80px;
+    background-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(151, 150, 150);
+    color: black;
+    font-size: 40px;
+    font-family: Arial;
+    text-align: right;
+    
+}
+
+.calculator {
+    color: white;
+    text-align: center;    
+}
+
+#coffe {
+    cursor: help;
+    color: white;
+    transition: all 500ms ease-in-out;
+}
+#coffe:hover{
+    color: rgb(100, 14, 14);
+    
+}
+
